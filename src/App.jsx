@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="main">
+      <div className="px-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
