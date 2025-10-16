@@ -1,10 +1,13 @@
 import "./App.css";
+import Footer from "./componensts/Footer";
+import Header from "./componensts/Header";
 
 function App() {
   return (
     <>
       <div className="main">
-        <h2>react app created</h2>
+        <Header />
+        <Footer />
       </div>
     </>
   );
