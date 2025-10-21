@@ -3,8 +3,10 @@ import HomeCard from "../componensts/HomeCard";
 function Home() {
   return (
     <>
-      <HomeCard url="about" />
-      <HomeCard url="contact" />
+      <HomeCard url="introduction" />
+      {/* <HomeCard url="jsx" />
+      <HomeCard url="components" />
+      <HomeCard url="props" /> */}
     </>
   );
 }

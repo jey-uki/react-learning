@@ -17,9 +17,10 @@ const style = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    position: "absolute",
-    bottom: "0",
-    width: "100%"
+    position: "fixed",
+    bottom: 0,
+    width: "100%",
+    left: 0,
   },
 };
 
