@@ -7,6 +7,7 @@ function Home() {
       <HomeCard url="jsx" />
       <HomeCard url="components" />
       <HomeCard url="props" />
+      <HomeCard url="hooks" />
     </>
   );
 }
