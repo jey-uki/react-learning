@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as Yup from "yup";
-import "../../styles/RegistrationForm.css";
+// import "../../styles/RegistrationForm.css";
 
 // Custom Yup messages + strong password rules
 const validationSchema = Yup.object().shape({
