@@ -5,7 +5,7 @@ function Home() {
     <>
       <HomeCard
         url="introduction"
-        text="this is react introduction to understand basic"
+        text="This is react introduction to understand basic"
       />
       <HomeCard url="jsx" />
       <HomeCard url="components" />
