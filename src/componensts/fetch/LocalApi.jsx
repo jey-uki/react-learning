@@ -107,7 +107,7 @@ function LocalApi() {
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>
-                {new Date(user.createdAt).toLocaleString("en-GB", {
+                {new Date(user.createdAt).toLocaleString("en-US", {
                   day: "2-digit",
                   month: "short",
                   year: "numeric",
@@ -116,7 +116,7 @@ function LocalApi() {
                 })}
               </td>
               <td>
-                {new Date(user.updatedAt).toLocaleString("en-GB", {
+                {new Date(user.updatedAt).toLocaleString("en-US", {
                   day: "2-digit",
                   month: "short",
                   year: "numeric",
